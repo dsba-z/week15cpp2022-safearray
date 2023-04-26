@@ -65,5 +65,3 @@ The class should have a `resize` function which takes two arguments: size as an 
 It should delete the previously allocated memory and allocate new memory with the new size. If the new array is larger than the old one, it should fill the new free elements with the default value argument. If the default value argument isn't provided, the function should use default objects of type `T`.
 
 The function should correctly handle edge cases, not performing unnecessary actions.
-
-```
